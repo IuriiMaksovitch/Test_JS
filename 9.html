@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<h1></h1>
+	<h2></h2>
+	<h3></h3>
+	<h4></h4>
+	<div><p></p></div>
+	<div><p></p></div>
+	<div><p></p></div>
+	<div><p></p></div>
+	<a href="ya.ru"></a>
+	<a href="google.com"></a>
+	<a href="vk.com"></a>
+	<a href="linkedin.com"></a>
+	<button onclick="a()" style="width: 100px; height: 100px" id="txt1"> </button>
+	<script type="text/javascript">
+		var counter = 0;
+		var a = function() {
+			counter = counter+1;
+			var b = document.getElementById('txt1');
+			b.innerHTML = counter;
+		}
+		
+	</script>
+</body>
+</html>

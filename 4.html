@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<h1></h1>
+	<h2></h2>
+	<h3></h3>
+	<h4></h4>
+	<div><p></p></div>
+	<div><p></p></div>
+	<div><p></p></div>
+	<div><p></p></div>
+	<a href="ya.ru"></a>
+	<a href="google.com"></a>
+	<a href="vk.com"></a>
+	<a href="linkedin.com"></a>
+	<script type="text/javascript">
+	var obj1 = {
+			en: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+			heb: ['Йом ришо́н', 'Йом шэни́', 'Йом шлиши́', 'Йом равии́', 'Йом хамиши́', 'Йом шиши́', 'Йом шабат']
+		};
+
+	var leng = prompt('write lenguage', 'eng');
+	
+	if (leng == 'eng') {
+		alert(obj1.en)
+	}	
+	else {
+		alert(obj1.heb)
+	}
+
+	switch (leng) {
+		case 'eng':
+			alert(obj1.en);
+			break;
+		case 'heb':
+			alert(obj1.heb);
+			break;
+	};
+	</script>
+</body>
+</html>
